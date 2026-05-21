@@ -2,8 +2,16 @@ body{
   background: #fcffee;
 }
 
+p{
+  font-family: Andale Mono, monospace;
+  font-size: 12.75px;
+  color: #9a9c86;
+  display: flex;
+  justify-content: center;
+}
+
 header{
-  background-color: #8aaa47;
+  background-color: #abb55e;
   display: flex;
   overflow: scroll;
   position: sitcky;
@@ -20,4 +28,22 @@ header > a{
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 3px;
+}
+
+section{
+  padding: 10px;
+}
+
+.titles{
+  color: #687703;
+  font-family: Impact, fantasy;
+  letter-spacing: 2.5px;
+  display: flex;
+  justify-content: center;
+}
+
+.slides{
+  display: block;
+  margin:auto;
+  width:90%;
 }
