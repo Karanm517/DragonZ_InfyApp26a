@@ -1,0 +1,23 @@
+body{
+  background: #fcffee;
+}
+
+header{
+  background-color: #8aaa47;
+  display: flex;
+  overflow: scroll;
+  position: sitcky;
+  justify-content: space-evenly;
+}
+
+header::-webkit-scrollbar {
+  display: none;
+}
+
+header > a{
+  padding: 20px;
+  color: #fcffee;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
