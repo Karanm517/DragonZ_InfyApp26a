@@ -14,7 +14,7 @@ header{
   background-color: #abb55e;
   display: flex;
   overflow: scroll;
-  position: sitcky;
+  position: sticky;
   justify-content: space-evenly;
 }
 
