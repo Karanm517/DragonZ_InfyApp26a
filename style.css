@@ -49,7 +49,7 @@ section{
   overflow-x: auto;
   padding: 20px;
   scroll-behavior: smooth;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .cards::-webkit-scrollbar{
