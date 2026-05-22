@@ -45,7 +45,7 @@ section{
 /*Creators Section*/
 .cards{
   display: flex;
-  gap: 25px;
+  gap: 5%;
   overflow-x: auto;
   padding: 20px;
   scroll-behavior: smooth;
