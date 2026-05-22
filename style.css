@@ -14,8 +14,10 @@ header{
   background-color: #abb55e;
   display: flex;
   overflow: scroll;
-  position: sticky;
+  position: fixed;
   justify-content: space-evenly;
+  width: 100%;
+  z-index: 1000;
 }
 
 header::-webkit-scrollbar {
@@ -31,7 +33,7 @@ header > a{
 }
 
 section{
-  padding: 10px;
+  padding: 2.5%;
 }
 
 .titles{
@@ -40,6 +42,7 @@ section{
   letter-spacing: 2.5px;
   display: flex;
   justify-content: center;
+  margin-top:75px;
 }
 
 /*Creators Section*/
