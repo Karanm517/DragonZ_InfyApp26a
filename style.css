@@ -44,7 +44,57 @@ section{
   justify-content: center;
   margin-top:75px;
 }
+.hero{
+  text-align: center;
 
+  padding-top: 140px;
+  padding-bottom: 120px;
+
+  background: linear-gradient(
+    180deg,
+    #dfe7b3 0%,
+    #fcffee 100%
+  );
+
+  border-radius: 0 0 30px 30px;
+}
+
+.main-title{
+  font-size: 70px;
+  color: #687703;
+  font-family: Impact, fantasy;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.tagline{
+  font-size: 18px;
+  color: #9a9c86;
+  letter-spacing: 1px;
+}
+
+.start-btn{
+  display: inline-block;
+
+  margin-top: 25px;
+  padding: 12px 28px;
+
+  background-color: #687703;
+  color: #fcffee;
+
+  text-decoration: none;
+  font-family: Impact, fantasy;
+  letter-spacing: 2px;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.start-btn:hover{
+  background-color: #556300;
+  transform: translateY(-3px);
+}
 /*Creators Section*/
 .cards{
   display: flex;
