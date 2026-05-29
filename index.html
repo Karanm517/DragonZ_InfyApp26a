@@ -1,27 +1,129 @@
-<!-- Showcase -->
-<section id="showcase">
+@@ -1,128 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <!-- Slideshow -->
-  <h1 class="titles">Slideshow</h1>
+  <body>
 
-  <div class="slides-container">
-    <iframe 
-      src="https://docs.google.com/presentation/d/e/2PACX-1vRUir4WMxMuzLaBBJDNzh39FtnD7DvBmV3LGo6uGUpFj4WXO_N3-1SsEX9OEhUk9oLRhSLhOAOAr1o8/pubembed?start=false&loop=false&delayms=60000"
-      frameborder="0"
-      allowfullscreen="true"
-      mozallowfullscreen="true"
-      webkitallowfullscreen="true">
-    </iframe>
-  </div>
+    <!-- Navigation Bar -->
+    <header>
+      <a href="#home">HOME</a>
+      <a href="#creators">CREATORS</a>
+      <a href="#pitch">PITCH</a>
+      <a href="#showcase">SHOWCASE</a>
+    </header>
 
-  <!-- Video -->
-  <h1 class="titles">Video Demo</h1>
+    <!-- Home -->
+    <section id="home" class="hero">
+      <h1 class="main-title">DriveQuest</h1>
+    
+      <p class="tagline">Learn. Practice. Drive safer.</p>
+    
+      <a href="#creators" class="start-btn">START</a>
+    </section>
 
-  <div class="video-container">
-    <video controls class="video_demo">
-      <source src="Recording 2026-05-28 002536.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+    <!-- Creators -->
+    <section id="creators">
+      <h1 class="titles">Creators</h1>
 
-</section>
+      <div class="cards">
+
+        <!-- Karan's Card -->
+        <div class="creator-card">
+          <img src="karan.png.png" alt="Karan Mehta" class="pfp">
+
+          <h2>Karan Mehta</h2>
+
+          <p class="roles">Project Lead</p>
+
+          <a href="https://karanm517.github.io/KM_REPOSITORY_2026/" target="_blank" class="portfolio-btn">
+            Portfolio
+          </a>
+        </div>
+
+        <!-- Stephany's Card -->
+        <div class="creator-card">
+          <img src="stephany.png" alt="Stephany Zaraza" class="pfp">
+
+          <h2>Stephany Zaraza</h2>
+
+          <p class="roles">Web Developer</p>
+
+          <a href="https://stephanyz8.github.io/SZ_Junior_Portfolio_Infy/" target="_blank" class="portfolio-btn">
+            Portfolio
+          </a>
+        </div>
+
+        <!-- Aritra's Card -->
+        <div class="creator-card">
+          <img src="aritra.png" alt="Aritra Paul" class="pfp">
+
+          <h2>Aritra Paul</h2>
+
+          <p class="roles">Research & Game Design</p>
+
+          <a href="https://www.figma.com/proto/nFISCi7so60n4SCreXSzoG/AP_FigmaPractice?node-id=43-2&starting-point-node-id=43%3A2" target="_blank" class="portfolio-btn">
+            Portfolio
+          </a>
+        </div>
+
+        <!-- Tenzin's Card -->
+        <div class="creator-card">
+          <img src="tenzin.png" alt="Tenzin Samten" class="pfp">
+
+          <h2>Tenzin Samten</h2>
+
+          <p class="roles">Content Strategist</p>
+
+          <a href="https://tzsmtn.github.io/JuniorPortfolio/" target="_blank" class="portfolio-btn">
+            Portfolio
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pitch -->
+    <section id="pitch">
+      <h1 class="titles">Pitch</h1>
+
+      <p>
+        DriveQuest is an interactive learning app designed to help new and teenage drivers become safer and more responsible on the road.
+      </p>
+
+      <p>
+        Instead of being a boring handbook, the app turns driving education into an engaging experience that helps users actually enjoy learning important road safety rules.
+      </p>
+
+      <p>
+        We built DriveQuest because many new drivers lack experience and awareness, which can lead to dangerous situations. Our goal is to reduce accidents by encouraging better decisions behind the wheel.
+      </p>
+    </section>
+
+    <!-- Showcase -->
+    <section id="showcase">
+
+      <!-- Slideshow -->
+      <h1 class="titles">Slideshow</h1>
+
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRUir4WMxMuzLaBBJDNzh39FtnD7DvBmV3LGo6uGUpFj4WXO_N3-1SsEX9OEhUk9oLRhSLhOAOAr1o8/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+      <!-- Video -->
+      <h1 class="titles">Video Demo</h1>
+
+      <video width="300" height="600" controls class="video_demo">
+        <source src="Recording 2026-05-28 002536.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="resource-card">
+      <p>© 2026 DriveQuest | All Rights Reserved.</p>
+    </footer>
+
+  </body>
+</html>
